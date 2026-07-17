@@ -35,7 +35,7 @@ const chatWindow = document.getElementById("chatWindow");
 /* -------- 2. Where to send chat requests --------
    This is the class-hosted Cloudflare Worker from the README.
    It holds the OpenAI key for us — we never handle the key here. */
-const WORKER_URL = "https://loreal-chatbot.your-subdomain.workers.dev/";
+const WORKER_URL = "https://loreal-chatbot.nidhisgokidi.workers.dev/";
 // TODO: replace the URL above with the exact Worker URL from the README.
 
 /* -------- 3. The system prompt --------
